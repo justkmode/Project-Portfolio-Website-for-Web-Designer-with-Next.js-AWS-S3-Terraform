@@ -1,0 +1,55 @@
+**Project Overview: Portfolio Website Deployment**
+
+**Client:** James Smith, a freelance web designer
+
+**Project Description:**  
+James Smith, a freelance web designer, needs a modern, responsive single-page website to showcase his work and attract potential clients. The website is built using Next.js, and the goal is to host it on a robust, scalable, and cost-effective platform. The site needs to be highly available, scalable, cost-effective, and optimized for fast loading times globally.
+
+**Project Outcome:**  
+By the end of this project, the following objectives were achieved:
+
+1. **Deployed a Next.js Website:** Successfully deployed the Next.js portfolio site on AWS.
+2. **Implemented Infrastructure as Code:** Used Terraform to automate the creation of AWS resources.
+3. **Configured Global Content Delivery:** Set up AWS CloudFront to deliver website content globally with low latency.
+4. **Ensured Security and Performance:** Applied best practices for security and performance to ensure a fast and secure website.
+
+**Steps Taken:**
+
+1. **Prepare the Next.js Application:**
+   - **Create a GitHub Repository:**
+     - Created a new GitHub repository named `terraform-portfolio-project`.
+     - Initialized the repository with a README file.
+   - **Clone the Repository:**
+     - Cloned the repository with: `git clone https://github.com/<your-username>/terraform-portfolio-project.git`
+     - Navigated to the project directory: `cd terraform-portfolio-project`
+
+2. **Clone the Next.js Portfolio Starter Kit:**
+   - Cloned the portfolio starter kit using:  
+     ```bash
+     npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"
+     ```
+   - Navigated to the project directory: `cd nextjs-blog`
+   - Started the development server: `npm run dev` (accessible at http://localhost:3000/)
+
+3. **Configure Next.js for Static Export:**
+   - Created a `next.config.js` file in the root of the folder with the following content:
+     ```javascript
+     /**
+      * @type {import('next').NextConfig}
+      */
+     const nextConfig = {
+       output: 'export',
+     }
+     module.exports = nextConfig
+     ```
+   - Ran the build command: `npm run build`, which generated an `out` folder.
+
+4. **Initialize Git and Push to GitHub:**
+   - Initialized Git in the project folder:
+     ```bash
+     git init
+     git add .
+     git commit -m "Initial commit of Next.js portfolio starter kit"
+     git remote add origin https://github.com/<your-username>/terraform-portfolio-project.git
+     git push -u origin master
+     ```
