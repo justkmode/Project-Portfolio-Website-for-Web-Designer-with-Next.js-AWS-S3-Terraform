@@ -1,4 +1,4 @@
-### **Project: Portfolio-Website-for-Web-Designer-with-Next.js-AWS-S3-and-Terraform**
+### **Project: Portfolio-Website-for-Web-Designer-with-Next.js-AWS-S3-Terraform**
 
 #### **Client Project Brief**
 - **Client**: James Smith, Freelance Web Designer
