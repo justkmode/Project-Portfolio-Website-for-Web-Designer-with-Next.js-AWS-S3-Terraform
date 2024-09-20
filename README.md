@@ -31,5 +31,6 @@ By the end of this project:
 - Ensured Security and Performance: Applied best practices for security and performance, ensuring a fast and secure website for James's portfolio.
 
 - Deploy everything to github: Create a github repo and host all your project files and code there.
-Here is the Architecture designed for you:
+
+  Architecture designed:
 
