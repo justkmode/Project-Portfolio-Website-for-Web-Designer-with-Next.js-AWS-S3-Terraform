@@ -20,16 +20,16 @@ Fast Loading: The website should load quickly for visitors, providing a seamless
 Given these requirements, deploying the website using AWS services such as S3 for static hosting and CloudFront for content delivery is an ideal solution. Using Terraform will allow you to automate and manage the infrastructure efficiently.
 
 Project Outcome
-By the end of this project, you should have:
+By the end of this project:
 
-Deployed a Next.js Website: Successfully deployed the Next.js portfolio site on AWS.
+- Deployed a Next.js Website: Successfully deployed the Next.js portfolio site on AWS.
 
-Implemented Infrastructure as Code: Used Terraform to automate the creation of AWS resources.
+- Implemented Infrastructure as Code: Used Terraform to automate the creation of AWS resources.
 
-Configured Global Content Delivery: Set up AWS CloudFront to deliver the website content globally with low latency.
+- Configured Global Content Delivery: Set up AWS CloudFront to deliver the website content globally with low latency.
 
-Ensured Security and Performance: Applied best practices for security and performance, ensuring a fast and secure website for James's portfolio.
+- Ensured Security and Performance: Applied best practices for security and performance, ensuring a fast and secure website for James's portfolio.
 
-Deploy everything to github: Create a github repo and host all your project files and code there.
+- Deploy everything to github: Create a github repo and host all your project files and code there.
 Here is the Architecture designed for you:
 
